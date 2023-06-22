@@ -1,0 +1,93 @@
+// Estilos base para el documento Markdown
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    margin: 20px 0 10px;
+  }
+  
+  h3 {
+    font-size: 24px;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+  }
+  
+  // Estilos personalizados para la página
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  .left-column {
+    flex-basis: 60%;
+    margin-right: 20px;
+  }
+  
+  .right-column {
+    flex-basis: 30%;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    .left-column,
+    .right-column {
+      flex-basis: 100%;
+      margin-right: 0;
+    }
+  }
+  
+  .cover-image {
+    margin-bottom: 20px;
+  }
+  
+  // Estilos para los enlaces de redes sociales
+  .social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .social-links a:last-child {
+    margin-right: 0;
+  }
+  
+  .social-links i {
+    font-size: 32px;
+    color: #333;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .social-links i:hover {
+    color: #1DA1F2;
+  }
+  
+  .social-links .fab.fa-instagram:hover {
+    color: #E1306C;
+  }
+  
+  .social-links .fab.fa-linkedin:hover {
+    color: #0077B5;
+  }
